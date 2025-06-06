@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Matthew Mooney | White River Rafting Contact Page</title>
+    <meta name="description" content="Contact Us Page for Down the River">
+    <meta name="author" content="Matthew Mooney">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Delius&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/downriver.png" alt="Down the River Logo">
+        <h1>Down the River</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 River Rapids Rd, Boise, ID 83702</p>
+            <p>Phone: (208) 555-1234</p>
+            <p>Email: contact@downtheriver.com</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7314962825466!2d-6.266155284056573!3d53.34777847997937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9f8853fd47%3A0x35f8b9c0a92c3b91!2sRiver%20Liffey%2C%20Dublin!5e0!3m2!1sen!2sie!4v1717693260050!5m2!1sen!2sie"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profiles">
+                <figure>
+                    <img src="images/lucas.jpg" alt="Lucas, Guide" />
+                    <figcaption>Lucas – Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ryan.jpg" alt="Ryan, Instructor" />
+                    <figcaption>Ryan – Safety Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/arthur.jpg" alt="Arthur, Reservations" />
+                    <figcaption>Arthur – Reservation Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of the message:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©2025, Down the River, Matthew Mooney</p>
+        <div class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/x.jpg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <p><a href="images\downtheriveraboutus.drawio.png" target="_blank">View Contact Page Wireframe</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
